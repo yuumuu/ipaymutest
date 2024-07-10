@@ -1,0 +1,93 @@
+@import url('scrollbar.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply inline-flex items-center px-4 py-2.5 text-sm font-medium leading-4 rounded-md transition duration-150 ease-in-out border focus:outline-none;
+}
+
+.btn-gray {
+    @apply text-white bg-gray-600 border-none hover:bg-gray-500 focus-visible:outline-gray-600;
+}
+
+.btn-indigo {
+    @apply text-white bg-indigo-600 border-none hover:bg-indigo-500 focus-visible:outline-indigo-600;
+}
+
+.btn-violet {
+    @apply text-white border-none bg-violet-600 hover:bg-violet-500 focus-visible:outline-violet-600;
+}
+
+.btn-purple {
+    @apply text-white bg-purple-600 border-none hover:bg-purple-500 focus-visible:outline-purple-600;
+}
+
+.btn-green {
+    @apply text-white bg-green-600 border-none hover:bg-green-500 focus-visible:outline-green-600;
+}
+
+.btn-amber {
+    @apply text-white border-none bg-amber-600 hover:bg-amber-500 focus-visible:outline-amber-600;
+}
+
+.btn-red {
+    @apply text-white bg-red-600 border-none hover:bg-red-500 focus-visible:outline-red-600;
+}
+
+.btn-outline-gray {
+    @apply text-gray-500 bg-white border-gray-500 hover:bg-gray-200 dark:text-gray-400 dark:bg-gray-800 hover:text-gray-700 dark:hover:text-gray-300 dark:hover:bg-gray-700;
+}
+
+.btn-outline-indigo {
+    @apply text-indigo-500 bg-white border-indigo-500 hover:bg-indigo-200 dark:text-indigo-400 dark:bg-indigo-800 hover:text-indigo-700 dark:hover:text-indigo-300 dark:hover:bg-indigo-700;
+}
+
+.btn-outline-violet {
+    @apply bg-white text-violet-500 border-violet-500 hover:bg-violet-200 dark:text-violet-400 dark:bg-violet-800 hover:text-violet-700 dark:hover:text-violet-300 dark:hover:bg-violet-700;
+}
+
+.btn-outline-purple {
+    @apply text-purple-500 bg-white border-purple-500 hover:bg-purple-200 dark:text-purple-400 dark:bg-purple-800 hover:text-purple-700 dark:hover:text-purple-300 dark:hover:bg-purple-700;
+}
+
+.btn-outline-green {
+    @apply text-green-500 bg-white border-green-500 hover:bg-green-200 dark:text-green-400 dark:bg-green-800 hover:text-green-700 dark:hover:text-green-300 dark:hover:bg-green-700;
+}
+
+.btn-outline-amber {
+    @apply bg-white text-amber-500 border-amber-500 hover:bg-amber-200 dark:text-amber-400 dark:bg-amber-800 hover:text-amber-700 dark:hover:text-amber-300 dark:hover:bg-amber-700;
+}
+
+.btn-outline-red {
+    @apply text-red-500 bg-white border-red-500 hover:bg-red-200 dark:text-red-400 dark:bg-red-800 hover:text-red-700 dark:hover:text-red-300 dark:hover:bg-red-700;
+}
+
+.btn-text-gray {
+    @apply font-semibold text-gray-500 border-none dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300;
+}
+
+.btn-text-indigo {
+    @apply font-semibold text-indigo-500 border-none dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300;
+}
+
+.btn-text-purple {
+    @apply font-semibold text-purple-500 border-none dark:text-purple-400 hover:text-purple-700 dark:hover:text-purple-300;
+}
+
+.btn-text-violet {
+    @apply font-semibold border-none text-violet-500 dark:text-violet-400 hover:text-violet-700 dark:hover:text-violet-300;
+}
+
+.btn-text-green {
+    @apply font-semibold text-green-500 border-none dark:text-green-400 hover:text-green-700 dark:hover:text-green-300;
+}
+
+.btn-text-amber {
+    @apply font-semibold border-none text-amber-500 dark:text-amber-400 hover:text-amber-700 dark:hover:text-amber-300;
+}
+
+.btn-text-red {
+    @apply font-semibold text-red-500 border-none dark:text-red-400 hover:text-red-700 dark:hover:text-red-300;
+}
